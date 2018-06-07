@@ -67,8 +67,14 @@ public class WebElementActionTest {
     public void SearchResults() {
         WebElement inputSearch = driver.findElement(By.cssSelector(".search_query"));
         inputSearch.sendKeys("dress", Keys.ENTER);
-        inputSearch = driver.findElement(By.cssSelector(".search_query"));
+
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         Assert.assertTrue(driver.getTitle().contains("Search - My Store"));
+
     }
 }
         //TODO 5
