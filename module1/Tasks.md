@@ -1,6 +1,6 @@
 * Write simple test that navigates to http://juliemr.github.io/protractor-demo/ and checks its title
 * Sum up some two values and wait for the result
-    * Use Thread.sleep() to wait for element to load (but use it only ofr this homework, since "Waiting" topic will be discussed in upcoming sessions)
+    * Use Thread.sleep() to wait for element to load (but use it only ofr this zHomework, since "Waiting" topic will be discussed in upcoming sessions)
 * Do multiple mathematical actions and count the number of actions
 
 

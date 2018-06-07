@@ -50,7 +50,7 @@ public class Homework2Test {
     }
 
 
-    //todo 2. Sum up some two values and wait for the result * Use Thread.sleep() to wait for element to load (but use it only ofr this homework,
+    //todo 2. Sum up some two values and wait for the result * Use Thread.sleep() to wait for element to load (but use it only ofr this zHomework,
     // since "Waiting" topic will be discussed in upcoming sessions)
 
     @Test
