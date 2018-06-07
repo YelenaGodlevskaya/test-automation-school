@@ -6,6 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 public class TestCalculator {
@@ -21,10 +22,10 @@ public class TestCalculator {
         driver.get("http://juliemr.github.io/protractor-demo/");
     }
 
-      //@AfterMethod
-     // public void tearDown() throws Exception {
-      //    driver.quit();
-   // }
+      @AfterMethod
+      public void tearDown() throws Exception {
+          driver.quit();
+   }
 
     @Test
     public void SumCheckTest() {
@@ -42,14 +43,10 @@ public class TestCalculator {
             Thread.sleep(3000);
         } catch (InterruptedException e) {
             e.printStackTrace();
-            WebElement result = driver.findElement (By.cssSelector("h2"));
-
-            //Integer resultCheck;
-            //resultCheck()= result.getText();
-      //Assert.assertTrue(result.getText()=="5");
-
-            //System.out.println("result", result.getText());
-      Assert.assertEquals(result.getText(), "5");
+        }
+            WebElement result = driver.findElement(By.cssSelector("h2"));
+           // System.out.println("result" + result.getText());
+      Assert.assertTrue(result.getText() =="5");
 
         }
 
@@ -58,5 +55,5 @@ public class TestCalculator {
 
 
 
-}}
+}
 
