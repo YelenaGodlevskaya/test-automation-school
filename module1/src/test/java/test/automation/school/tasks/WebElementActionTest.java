@@ -56,7 +56,7 @@ public class WebElementActionTest {
         WebElement inputSearch = driver.findElement(By.cssSelector(".search_query"));
         inputSearch.sendKeys("dress");
        //Assert.assertTrue(driver.findElement(By.cssSelector(".search_query")).getText().contains("dress"));
-
+        inputSearch.clear();
     }
     //TODO 4
 
