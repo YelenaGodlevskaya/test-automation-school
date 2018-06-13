@@ -130,7 +130,7 @@ public class AdvancedActionsTest {
 
     }
 
-//        @Test
+//        @test
 //    public void multipleSelectTest() throws Exception {
 //
 //        driver.get("https://html.com/attributes/select-multiple/");

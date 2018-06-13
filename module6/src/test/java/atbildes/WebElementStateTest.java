@@ -45,7 +45,7 @@ public class WebElementStateTest {
     //TODO 2
 
 
-    //TODO 3 - Create TestNg Test method which navigates http://the-internet.herokuapp.com/checkboxes
+    //TODO 3 - Create TestNg test method which navigates http://the-internet.herokuapp.com/checkboxes
     //TODO 3 - verify that all checkboxes are displayed
     // Hint - you have to iterate through a Collection
     @Test
@@ -60,7 +60,7 @@ public class WebElementStateTest {
     //TODO 3
 
 
-    //TODO 4 - Create TestNg Test method which navigates http://the-internet.herokuapp.com/checkboxes
+    //TODO 4 - Create TestNg test method which navigates http://the-internet.herokuapp.com/checkboxes
     //TODO 4 - test checkbox "selected" and "unselected" feature using 'isSelected()' method. You can check it on one checkbox
     @Test
     public void isSelectedTest() throws Exception {
@@ -75,7 +75,7 @@ public class WebElementStateTest {
     //TODO 4
 
 
-    //TODO 5 - Create TestNg Test method which navigates http://the-internet.herokuapp.com/checkboxes
+    //TODO 5 - Create TestNg test method which navigates http://the-internet.herokuapp.com/checkboxes
     //TODO 5 - test checkbox feature for 'checking' and 'unchecking' using 'getAttribute()' method. You can check it on one checkbox
     @Test
     public void getAttributeTest() throws Exception {
@@ -91,7 +91,7 @@ public class WebElementStateTest {
     //TODO 5
 
 
-    //TODO 6 - Create TestNg Test method which navigates http://the-internet.herokuapp.com/checkboxes
+    //TODO 6 - Create TestNg test method which navigates http://the-internet.herokuapp.com/checkboxes
     //TODO 6 - check that header text is equal to "Checkboxes"
     //TODO 6 - think how to retrieve all visible text on the page and verify it`s content
     @Test
@@ -113,7 +113,7 @@ public class WebElementStateTest {
     }
     //TODO 6
 
-    //TODO 7 - Create TestNg Test method which navigates https://jedwatson.github.io/react-select/
+    //TODO 7 - Create TestNg test method which navigates https://jedwatson.github.io/react-select/
     //TODO 7 - veri
     @Test
     public void dropdownTest() throws Exception {
@@ -138,7 +138,7 @@ public class WebElementStateTest {
     //TODO 7
 
 
-    //TODO 8 - Create TestNg Test method which navigates http://akveo.com/blur-admin-mint/#/ui/typography
+    //TODO 8 - Create TestNg test method which navigates http://akveo.com/blur-admin-mint/#/ui/typography
     //TODO 8 - verify that red text paragraph is actually red
     // to check rgba use https://www.hexcolortool.com/#e85454 or other sites
     @Test

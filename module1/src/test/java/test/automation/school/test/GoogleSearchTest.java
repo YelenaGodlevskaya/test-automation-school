@@ -8,7 +8,7 @@
 //import org.testng.Assert;
 //import org.testng.annotations.AfterMethod;
 //import org.testng.annotations.BeforeMethod;
-//import org.testng.annotations.Test;
+//import org.testng.annotations.test;
 //
 //import java.util.List;
 //
@@ -28,7 +28,7 @@
 //    }
 //
 //
-//    @Test
+//    @test
 //    public void testSearchResult(){
 //
 //        WebElement element = driver.findElement(By.name("q"));

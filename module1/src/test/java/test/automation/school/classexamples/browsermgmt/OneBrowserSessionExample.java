@@ -17,7 +17,7 @@ public class OneBrowserSessionExample {
 
     /*
     Driver is initialized inside of BeforeClass method, which means that driver will be created only once prior all tests.
-    Hence, one browser session will be 'alive' throughout all tests inside this Test Class
+    Hence, one browser session will be 'alive' throughout all tests inside this test Class
     PROs: This strategy allows to significantly save test execution time on browser start/destroy
     CONs:
     * session leaks - e.g. you want to ensure that test is not affected by previous test session (cache, local storage)

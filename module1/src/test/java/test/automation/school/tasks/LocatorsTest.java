@@ -12,6 +12,8 @@ import org.testng.annotations.Test;
 import javax.activation.MimeTypeParameterList;
 import java.util.List;
 
+import static org.testng.Assert.assertEquals;
+
 
 public class LocatorsTest {
     /*
@@ -98,6 +100,7 @@ public class LocatorsTest {
     public void locateElementByCssSelctorTest() throws Exception {
         //TODO 6 - locate only *visible* products element by CSS and put them into ArrayList Collection and check that elements list size is 7
         List <WebElement> visibleProducts = driver.findElements(By.cssSelector("#homefeatured li"));
+        //List <WebElement> visibleProducts = driver.findElements(By.cssSelector(".active.ajax_block_product"));
     Assert.assertTrue(visibleProducts.size()==7);
     }
         //TODO 6
@@ -109,7 +112,11 @@ public class LocatorsTest {
         //NOTE - you have to indicate all class names that are specified on the current element
         // This is contrary to CSS Selector where you can specify just one of the class names
         // TIP - use 'contains()'
+        List<WebElement> fndVsblXpth = driver.findElements(By.xpath("//*[contains(@class,'active')]/*[contains(@class,'ajax_block_product')]"));
+        assertEquals(fndVsblXpth.size(), 7);
 
+        //xpath==>  //*[contains(@class,'active')]/*[contains(@class,'ajax_block_product')]
+        // --> s ljubogo mesta
         //TODO 7
     }
 

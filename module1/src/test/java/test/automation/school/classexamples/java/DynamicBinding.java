@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 
 public class DynamicBinding {
 
-//    @Test
+//    @test
 //    public void testSearch() throws Exception {
 //        //assigning new object ('new FirefoxDriver()') to a variable ('driver') with a concrete type ('FirefoxDriver')
 //        FirefoxDriver driver = new FirefoxDriver();

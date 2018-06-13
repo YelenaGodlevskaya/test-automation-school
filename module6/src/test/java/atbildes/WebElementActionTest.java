@@ -46,7 +46,7 @@ public class WebElementActionTest {
     //TODO 2
 
 
-    //TODO 3 - Create TestNg Test method which navigates to Contact info page (click()) and verify that user is navigated to other page
+    //TODO 3 - Create TestNg test method which navigates to Contact info page (click()) and verify that user is navigated to other page
     @Test
     public void testClickAction() throws Exception {
         WebElement contactUsButton = driver.findElement(By.id("contact-link"));
@@ -56,7 +56,7 @@ public class WebElementActionTest {
     //TODO 3
 
 
-    //TODO 4 -Create TestNg Test method which inputs some value into search input field and then clear the inputted text. Try do it in 2 possible ways.
+    //TODO 4 -Create TestNg test method which inputs some value into search input field and then clear the inputted text. Try do it in 2 possible ways.
     @Test
     public void testInputActions() throws Exception {
         WebElement searchInput = driver.findElement(By.id("search_query_top"));
@@ -74,7 +74,7 @@ public class WebElementActionTest {
     //TODO 4
 
 
-    //TODO 5 - Create TestNg Test method - input some value into search input field and submit the result. Verify that user is navigated to new page
+    //TODO 5 - Create TestNg test method - input some value into search input field and submit the result. Verify that user is navigated to new page
     @Test
     public void testSubmitActions() throws Exception {
         WebElement searchInput = driver.findElement(By.id("search_query_top"));

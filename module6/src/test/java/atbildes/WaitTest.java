@@ -62,7 +62,7 @@ public class WaitTest {
 
     //TODO 2
 
-    //TODO 3 - Create TestNg Test method which
+    //TODO 3 - Create TestNg test method which
     //TODO 3 - 1. verifies that checkbox element dissapears after hitting "Remove" button
     //TODO 3 - 2. verifies that checkbox element appears after hitting "Add" button
     //TODO 3 - Use Explicit Wait without Implicit Wait
@@ -85,7 +85,7 @@ public class WaitTest {
     }
 
 
-    //TODO 4 - Create TestNg Test method which
+    //TODO 4 - Create TestNg test method which
     //TODO 4 - 1. verifies that checkbox element dissapears after hitting "Remove" button
     //TODO 4 - 2. verifies that checkbox element appears after hitting "Add" button
     //TODO 4 - Use Implicit Wait without Explicit Wait

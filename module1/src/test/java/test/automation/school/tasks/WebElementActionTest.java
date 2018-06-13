@@ -13,7 +13,7 @@ import org.testng.annotations.Test;
 
 public class WebElementActionTest {
 
-    WebDriver driver;
+    private WebDriver driver;
     //TODO - tests should use new browser instance for each test method
 
 
@@ -36,7 +36,7 @@ public class WebElementActionTest {
     //TODO 2
 
 
-    //TODO 3 - Create TestNg Test method which navigates to Contact info page (click()) and verify that user is navigated to other page
+    //TODO 3 - Create TestNg test method which navigates to Contact info page (click()) and verify that user is navigated to other page
     // NOTE - in order to verify that user has been navigated to new page, you can use 'driver.getTitle()', however this will work only for non Single Page Applications
     @Test
     public void NavigationToContact() {
@@ -49,19 +49,21 @@ public class WebElementActionTest {
     //TODO 3
 
 
-    //TODO 4 -Create TestNg Test method which inputs some value into search input field and then clear the inputted text. Try do it in 2 possible ways.
+    //TODO 4 -Create TestNg test method which inputs some value into search input field and then clear the inputted text. Try do it in 2 possible ways.
     //TODO 4 - Also verify inputted text after each input action.
     @Test
     public void SearchCriteria() {
         WebElement inputSearch = driver.findElement(By.cssSelector(".search_query"));
+        //String inputText = "dress";
         inputSearch.sendKeys("dress");
-       //Assert.assertTrue(driver.findElement(By.cssSelector(".search_query")).getText().contains("dress"));
+       //Assert.assertTrue(inputSearch.getAttribute ("value"));
+        //Assert.assertTrue(driver.findElement(By.cssSelector(".search_query")).getAttribute("value"));
         inputSearch.clear();
     }
     //TODO 4
 
 
-    //TODO 5 - Create TestNg Test method - input some value into search input field and submit the result. Verify that user is navigated to new page
+    //TODO 5 - Create TestNg test method - input some value into search input field and submit the result. Verify that user is navigated to new page
     // NOTE - in order to verify that user has been navigated to new page, you can use 'driver.getTitle()', however this will work only for non Single Page Applications
     @Test
     public void SearchResults() {
